@@ -1,0 +1,155 @@
+* {
+	padding = 0;
+	margin = 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+#banner {
+  background-image: url(./cloud.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  height: 300px;
+  width: 100%;
+}
+
+#index {
+  background-image: url(./yale.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  height: 800px;
+  width: 100%;
+}
+
+#banner .content h1, #index .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 200px;
+  margin: 0 auto;
+  Color: white;
+  Text-shadow: 5px 5px green;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 1000px;
+  overflow: scroll;
+}
+
+h1 {
+  color: black;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  Margin: 10px;
+  Padding: 14px;
+  Text-decoration: none;
+}
+
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+nav {
+  border: 0px solid LightGrey;
+  padding: 100px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  Background: green;
+  Border: 1px solid green;
+  Border-radius: 3px;
+  Color: white;
+  Display: inline-block;
+  Margin: 10px;
+  Padding: 14px;
+  Text-decoration: none;
+}
+
+a:hover {
+  background: white;
+  border: 1px solid green;
+  color: green;
+}
+
+.share {
+  border: 0px solid LightGrey;
+  padding: 100px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.share a {
+  background: blue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid blue;
+  color: blue;
+}
+
+.weather {
+  border: 0px solid LightGrey;
+  padding: 10x 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.weather a {
+  background: yellow;
+  border: 1px solid yellow;
+  border-radius: 3px;
+  color: red;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.weather a:hover {
+  background: red;
+  border: 1px solid yellow;
+  color: yellow;
+}
