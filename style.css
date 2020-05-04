@@ -94,7 +94,7 @@ a {
   Color: white;
   Display: inline-block;
   Margin: 10px;
-  Padding: 10px;
+  Padding: 0px 10px;
   Text-decoration: none;
 }
 
