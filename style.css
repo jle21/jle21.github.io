@@ -12,7 +12,7 @@ body {
   background-image: url(./cloud.jpg);
   background-size: cover;
   background-position: bottom center;
-  height: 300px;
+  height: 350px;
   width: 100%;
 }
 
@@ -94,7 +94,7 @@ a {
   Color: white;
   Display: inline-block;
   Margin: 10px;
-  Padding: 0px 10px;
+  Padding: 14px;
   Text-decoration: none;
 }
 
